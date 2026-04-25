@@ -1,0 +1,74 @@
+{%extends "base.html.jinja"%}
+{%set title = "Home"%}
+{%set active_page = "home"%}
+{% block content %}
+<container class="mt-4">
+    <div class="row bg-dark-subtle">
+        <div class="col"></div>
+        <div class="col-8">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="https://en.hololive-official-cardgame.com/wp-content/uploads/2026/04/bnr_boosters_bp05.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://en.hololive-official-cardgame.com/wp-content/uploads/2026/02/bnr_boosters_bp06.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://en.hololive-official-cardgame.com/wp-content/uploads/2026/04/bnr_boosters_bp05.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col"></div>
+    </div>
+</container>
+<container class="mt-4">
+    <h2>My Decks</h2>
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="card" style="width: 12rem;">
+                <img src="https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/EN_hBP05-006_OSR.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deck title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Edit Deck</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="card" style="width: 12rem;">
+                <img src="https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/EN_hBP05-006_OSR.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deck title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Edit Deck</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-2">
+            <div class="card" style="width: 12rem;">
+                <img src="https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/EN_hBP05-006_OSR.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deck title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Edit Deck</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</container>
+{% endblock %}
