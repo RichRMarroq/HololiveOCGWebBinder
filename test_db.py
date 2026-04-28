@@ -2,7 +2,7 @@ import sqlite3
 
 def test_db_connection():
     try:
-        conn = sqlite3.connect('holoocgsite.db')
+        conn = sqlite3.connect('instance/holoocgsite.db')
         print("Database connection successful!")
     except sqlite3.Error as e:
         print(f"Database connection failed: {e}")
@@ -12,7 +12,7 @@ def test_db_connection():
 
 def query_users():
     try:
-        conn = sqlite3.connect('holoocgsite.db')
+        conn = sqlite3.connect('instance/holoocgsite.db')
         cursor = conn.cursor()
         cursor.execute("SELECT * FROM user")
         users = cursor.fetchall()

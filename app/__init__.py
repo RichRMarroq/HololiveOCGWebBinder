@@ -1,22 +1,26 @@
+import os
 from flask import Flask
 from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
-from flask_migrate import Migrate
-from flask_sqlalchemy import SQLAlchemy
+from .models import db
 
 login_manager = LoginManager()
 bcryptSess = Bcrypt()
-db = SQLAlchemy()
-migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
 
+    #Ensure instance folder exists
+    os.makedirs(app.instance_path, exist_ok=True)
+
+    db_path = os.path.join(app.instance_path, "holoocgsite.db")
+
     app.config['SCRET_KEY'] = 'dev-key'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///holoocgsite.db'
+    app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{db_path}"
+    print(app.config['SQLALCHEMY_DATABASE_URI'])
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
     db.init_app(app)
-    migrate.init_app(app, db)
     login_manager.init_app(app)
     bcryptSess.init_app(app)
 
