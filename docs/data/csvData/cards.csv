@@ -1,0 +1,202 @@
+card_id,card_number,name,set_code,set_name,card_type,rarity,color_1,color_2,image_url,artist,life,hp,stage,support_type,is_limited,effect_text
+1,hBP01-001,Amane Kanata,hBP01,Blooming Radiance,Oshi,OSR,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-001_OSR.png,Hiroko,5,,,,,
+2,hBP01-002,Nanashi Mumei,hBP01,Blooming Radiance,Oshi,OSR,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-002_OSR.png,Hiroko,5,,,,,
+3,hBP01-003,Aki Rosenthal,hBP01,Blooming Radiance,Oshi,OSR,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-003_OSR.png,Hiroko,5,,,,,
+4,hBP01-004,Usada Pekora,hBP01,Blooming Radiance,Oshi,OSR,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-004_OSR.png,神奈ぺろん,6,,,,,
+5,hBP01-005,Takane Lui,hBP01,Blooming Radiance,Oshi,OSR,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-005_OSR.png,須王 彩,5,,,,,
+6,hBP01-006,Takanashi Kiara,hBP01,Blooming Radiance,Oshi,OSR,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-006_OSR.png, 水鈴,5,,,,,
+7,hBP01-007,Hoshimachi Suisei,hBP01,Blooming Radiance,Oshi,OSR,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-007_OSR.png, 水鈴,5,,,,,
+8,hBP01-008,Kobo Kanaeru,hBP01,Blooming Radiance,Oshi,OSR,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-008_OSR.png,タスキブ,6,,,,,
+9,hBP01-009,Amane Kanata,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-009_C.png,Cover,,90,Debut,,,
+10,hBP01-010,Amane Kanata,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-010_U.png,さとうぽて,,60,Debut,,,
+11,hBP01-011,Amane Kanata,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-011_C.png,おしおしお,,150,1st,,,
+12,hBP01-012,Amane Kanata,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-012_U.png,Cover,,120,1st,,,
+13,hBP01-013,Amane Kanata,hBP01,Blooming Radiance,Holomem,R,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-013_R.png,須王 彩,,100,1st,,,
+14,hBP01-014,Amane Kanata,hBP01,Blooming Radiance,Holomem,RR,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-014_RR.png,ノーマル：須王 彩 パラレル：うなぽっぽ,,200,2nd,,,
+15,hBP01-015,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-015_C.png,Cover,,90,Debut,,,
+16,hBP01-016,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-016_U.png,Cover,,60,Debut,,,
+17,hBP01-017,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-017_C.png,WERI,,130,1st,,,
+18,hBP01-018,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-018_C.png,あずーる,,120,1st,,,
+19,hBP01-019,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-019_U.png,Cover,,100,1st,,,
+20,hBP01-020,Nanashi Mumei,hBP01,Blooming Radiance,Holomem,R,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-020_R.png,高崎律,,190,2nd,,,
+21,hBP01-021,Tokino Sora,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-021_C.png,Cover,,100,Debut,,,
+22,hBP01-022,Tokino Sora,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-022_U.png,Cover,,110,1st,,,
+23,hBP01-023,Tokino Sora,hBP01,Blooming Radiance,Holomem,RR,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-023_RR.png,タスキブ,,210,2nd,,,
+24,hBP01-024,Vestia Zeta,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-024_C.png,Cover,,100,Debut,,,
+25,hBP01-025,Vestia Zeta,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-025_C.png,あるてら,,160,1st,,,
+26,hBP01-026,Vestia Zeta,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-026_U.png,Cover,,110,1st,,,
+27,hBP01-027,Vestia Zeta,hBP01,Blooming Radiance,Holomem,RR,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-027_RR.png,いかけ,,200,1st Buzz,,,
+28,hBP01-028,IRyS,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-028_C.png,Cover,,100,Debut,,,
+29,hBP01-029,IRyS,hBP01,Blooming Radiance,Holomem,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-029_C.png,トロメラ,,160,1st,,,
+30,hBP01-030,IRyS,hBP01,Blooming Radiance,Holomem,U,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-030_U.png,Cover,,110,1st,,,
+31,hBP01-031,IRyS,hBP01,Blooming Radiance,Holomem,R,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-031_R.png,mizu,,200,2nd,,,
+32,hBP01-032,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-032_C.png,Cover,,100,Debut,,,
+33,hBP01-033,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-033_U.png,安曇アキタケ,,50,Debut,,,
+34,hBP01-034,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-034_C.png,千種みのり,,160,1st,,,
+35,hBP01-035,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-035_C.png,夏炉,,120,1st,,,
+36,hBP01-036,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-036_U.png,Cover,,100,1st,,,
+37,hBP01-037,Aki Rosenthal,hBP01,Blooming Radiance,Holomem,R,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-037_R.png,りんけてん,,190,2nd,,,
+38,hBP01-038,Usada Pekora,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-038_C.png,Cover,,90,Debut,,,
+39,hBP01-039,Usada Pekora,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-039_U.png,憂姫はぐれ,,60,Debut,,,
+40,hBP01-040,Usada Pekora,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-040_C.png,憂姫はぐれ,,150,1st,,,
+41,hBP01-041,Usada Pekora,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-041_U.png,Cover,,90,1st,,,
+42,hBP01-042,Usada Pekora,hBP01,Blooming Radiance,Holomem,R,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-042_R.png,憂姫はぐれ,,120,1st,,,
+43,hBP01-043,Usada Pekora,hBP01,Blooming Radiance,Holomem,RR,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-043_RR.png,須王 彩,,200,2nd,,,
+44,hBP01-044,AZKi,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-044_C.png,Cover,,100,Debut,,,
+45,hBP01-045,AZKi,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-045_U.png,美和野らぐ,,50,Debut,,,
+46,hBP01-046,AZKi,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-046_C.png,Cover,,100,1st,,,
+47,hBP01-047,AZKi,hBP01,Blooming Radiance,Holomem,RR,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-047_RR.png,ノーマル：チェリ子 パラレル：Hachi,,220,2nd,,,
+48,hBP01-048,Kazama Iroha,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-048_C.png,Cover,,120,Debut,,,
+49,hBP01-049,Kazama Iroha,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-049_C.png,はな森,,180,1st,,,
+50,hBP01-050,Kazama Iroha,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-050_U.png,Cover,,140,1st,,,
+51,hBP01-051,Kazama Iroha,hBP01,Blooming Radiance,Holomem,RR,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-051_RR.png,ノーマル：でいりー パラレル：さまて,,250,1st Buzz,,,
+52,hBP01-052,Airani Iofifteen,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-052_C.png,Cover,,70,Debut,,,
+53,hBP01-053,Airani Iofifteen,hBP01,Blooming Radiance,Holomem,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-053_C.png,夜ノみつき,,170,1st,,,
+54,hBP01-054,Airani Iofifteen,hBP01,Blooming Radiance,Holomem,U,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-054_U.png,Cover,,120,1st,,,
+55,hBP01-055,Airani Iofifteen,hBP01,Blooming Radiance,Holomem,R,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-055_R.png,高崎律,,180,2nd,,,
+56,hBP01-056,Takane Lui,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-056_C.png,Cover,,100,Debut,,,
+57,hBP01-057,Takane Lui,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-057_U.png,TAiGA,,60,Debut,,,
+58,hBP01-058,Takane Lui,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-058_C.png,MyungYi,,170,1st,,,
+59,hBP01-059,Takane Lui,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-059_C.png,ごろー＊,,130,1st,,,
+60,hBP01-060,Takane Lui,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-060_U.png,Cover,,100,1st,,,
+61,hBP01-061,Takane Lui,hBP01,Blooming Radiance,Holomem,R,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-061_R.png,でいりー,,190,2nd,,,
+62,hBP01-062,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-062_C.png,Cover,,90,Debut,,,
+63,hBP01-063,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-063_U.png,Akizone,,60,Debut,,,
+64,hBP01-064,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-064_C.png,スコッティ,,130,1st,,,
+65,hBP01-065,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-065_U.png,Cover,,110,1st,,,
+66,hBP01-066,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,R,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-066_R.png,タスキブ,,120,1st,,,
+67,hBP01-067,Takanashi Kiara,hBP01,Blooming Radiance,Holomem,RR,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-067_RR.png,タスキブ,,200,2nd,,,
+68,hBP01-068,Omaru Polka,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-068_C.png,Cover,,70,Debut,,,
+69,hBP01-069,Omaru Polka,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-069_C.png,スコッティ,,180,1st,,,
+70,hBP01-070,Omaru Polka,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-070_U.png,Cover,,110,1st,,,
+71,hBP01-071,Omaru Polka,hBP01,Blooming Radiance,Holomem,RR,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-071_RR.png,ノーマル：さとうさなえ パラレル：南野あき,,240,1st Buzz,,,
+72,hBP01-072,Hakos Baelz,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-072_C.png,Cover,,80,Debut,,,
+73,hBP01-073,Hakos Baelz,hBP01,Blooming Radiance,Holomem,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-073_C.png,おしるこ,,140,1st,,,
+74,hBP01-074,Hakos Baelz,hBP01,Blooming Radiance,Holomem,U,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-074_U.png,Cover,,90,1st,,,
+75,hBP01-075,Hakos Baelz,hBP01,Blooming Radiance,Holomem,R,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-075_R.png,COGA,,180,2nd,,,
+76,hBP01-076,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-076_C.png,Cover,,90,Debut,,,
+77,hBP01-077,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-077_U.png,ひなつ,,70,Debut,,,
+78,hBP01-078,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-078_C.png,うごんば,,150,1st,,,
+79,hBP01-079,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-079_U.png,Cover,,120,1st,,,
+80,hBP01-080,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,R,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-080_R.png,でいりー,,110,1st,,,
+81,hBP01-081,Hoshimachi Suisei,hBP01,Blooming Radiance,Holomem,RR,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-081_RR.png,ノーマル：でいりー パラレル：,,210,2nd,,,
+82,hBP01-082,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-082_C.png,Cover,,100,Debut,,,
+83,hBP01-083,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-083_U.png,ぽんかん⑧,,70,Debut,,,
+84,hBP01-084,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-084_C.png,ゆづあ,,180,1st,,,
+85,hBP01-085,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-085_C.png,Salmon88,,120,1st,,,
+86,hBP01-086,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-086_U.png,Cover,,110,1st,,,
+87,hBP01-087,Kobo Kanaeru,hBP01,Blooming Radiance,Holomem,R,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-087_R.png,高崎律,,200,2nd,,,
+88,hBP01-088,Moona Hoshinova,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-088_C.png,Cover,,90,Debut,,,
+89,hBP01-089,Moona Hoshinova,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-089_C.png,により,,140,1st,,,
+90,hBP01-090,Moona Hoshinova,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-090_U.png,Cover,,110,1st,,,
+91,hBP01-091,Moona Hoshinova,hBP01,Blooming Radiance,Holomem,RR,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-091_RR.png,高崎律,,240,1st Buzz,,,
+92,hBP01-092,Ouro Kroni,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-092_C.png,Cover,,70,Debut,,,
+93,hBP01-093,Ouro Kroni,hBP01,Blooming Radiance,Holomem,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-093_C.png,ワダアルコ,,160,1st,,,
+94,hBP01-094,Ouro Kroni,hBP01,Blooming Radiance,Holomem,U,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-094_U.png,Cover,,120,1st,,,
+95,hBP01-095,Ouro Kroni,hBP01,Blooming Radiance,Holomem,R,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-095_R.png,syow,,200,2nd,,,
+96,hBP01-096,Usada Pekora,hBP01,Blooming Radiance,Holomem,R,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-096_R.png,mono,,80,Spot,,,
+97,hBP01-097,Shiranui Flare,hBP01,Blooming Radiance,Holomem,R,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-097_R.png,mono,,80,Spot,,,
+98,hBP01-098,Shirogane Noel,hBP01,Blooming Radiance,Holomem,R,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-098_R.png,mono,,90,Spot,,,
+99,hBP01-099,Houshou Marine,hBP01,Blooming Radiance,Holomem,R,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-099_R.png,mono,,70,Spot,,,
+100,hBP01-100,Mori Calliope,hBP01,Blooming Radiance,Holomem,C,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-100_C.png,Cover,,70,Spot,,,
+101,hBP01-101,Watson Amelia,hBP01,Blooming Radiance,Holomem,C,Colorless,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-101_C.png,Cover,,80,Spot,,,
+102,hBP01-102,Idol Microphone,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-102_U.png,JinArt KABAKURA,,,,Item,TRUE,"""This card can only be used if you have 6 or less cards in hand excluding this card.
+
+Look at the top 4 cards of your deck. Reveal any number of holomem with #Singing from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."""
+103,hBP01-103,Gaming PC,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-103_U.png,JinArt こばやかわやまと,,,,Item,TRUE,"""This card can only be used if you archive 1 of your holo Powers.
+
+Reveal 1 [Debut holomem or 1st holomem] other than Buzz from your deck with the same color as your Oshi holomem, and add it to hand. Then, shuffle the deck."""
+104,hBP01-104,Normal PC,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-104_C.png,JinArt KABAKURA,,,,Item,FALSE,"""Reveal 1 Debut holomem from your deck, and place it on Stage. Then, shuffle the deck."""
+105,hBP01-105,Penlight,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-105_U.png,JinArt KABAKURA,,,,Item,TRUE,"""This card can only be used if you archive 1 of your holo Powers.
+
+Reveal 1 cheer from your cheer deck with the same color as 1 of your holomem, and send it to your holomem. Then, shuffle the cheer deck."""
+106,hBP01-106,I leave the rest to you!,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-106_U.png,JinArt KABAKURA,,,,Event,FALSE,"""Swap your center holomem with 1 non-resting back holomem."""
+107,hBP01-107,Encore,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-107_C.png,JinArt こばやかわやまと,,,,Event,FALSE,"""Return 1~3 cheers from your archive to the cheer deck. Then, shuffle the cheer deck."""
+108,hBP01-108,"So, That Makes You My Enemy",hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-108_U.png,Cover,,,,Event,TRUE,"""Swap your opponent's center holomem with 1 back holomem."""
+109,hBP01-109,Tale of the Moon and the Rabbit,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-109_U.png,JinArt こばやかわやまと,,,,Event,TRUE,"""This card can only be used if you have 6 or less cards in hand excluding this card.
+
+Look at the top 4 cards of your deck. Reveal any number of 〈Usada Pekora〉 and/or 〈Moona Hoshinova〉 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."""
+110,hBP01-110,I'll smack you with a blunt weapon!,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-110_U.png,Cover,,,,Event,TRUE,"""Roll a die once:If it is 3 or less, archive 1 of your opponent's holomem's cheers.
+
+◆If your Oshi holomem is 〈Nanashi Mumei〉, you may Ability Shift
+[1/Game]Archive 2 of your opponent's center holomem's cheers."""
+111,hBP01-111,hololive Indonesia Gen 3,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-111_U.png,SAKON,,,,Event,TRUE,"""This card can only be used if you have 6 or less cards in hand excluding this card.
+
+Look at the top 4 cards of your deck. Reveal any number of holomem with #ID Gen 3 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."""
+112,hBP01-112,Exciting Prank Time,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-112_U.png,Cover,,,,Event,FALSE,"""Roll a die once:If it is 4 or greater, deal 20 Special Damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."""
+113,hBP01-113,Promise,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-113_U.png,Cover,,,,Event,TRUE,"""This card can only be used if you have 6 or less cards in hand excluding this card.
+
+Look at the top 4 cards of your deck. Reveal any number of holomem with #Promise from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."""
+114,hBP01-114,Stone Axe,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-114_C.png,JinArt こばやかわやまと,,,,Tool,FALSE,"""■The holomem this tool is attached to gets Arts+20.
+■When the holomem this tool is attached to uses Arts, deal 10 Special Damage to this holomem.
+
+◆Additional ability if attached to a 1st or greater 〈Aki Rosenthal〉
+[1/Turn]When this holomem is restored by your ability, draw 1 card from the deck.
+
+Only 1 tool can be attached to each of your holomem."""
+115,hBP01-115,Hoshimachi Suisei's Microphone,hBP01,Blooming Radiance,Support,U,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-115_U.png,JinArt こばやかわやまと,,,,Tool,FALSE,"""The holomem this tool is attached to gets Arts+10.
+
+◆Additional ability if attached to a 1st or greater 〈Hoshimachi Suisei〉
+If the holomem this tool is attached to downed your opponent's holomem, send 1 card from the top of your cheer deck to this holomem.
+
+Only 1 tool can be attached to each of your holomem."""
+116,hBP01-116,Upao,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-116_C.png,JinArt KABAKURA,,,,Mascot,FALSE,"""The holomem this mascot is attached to gets Arts+10.
+
+◆Additional ability if attached to 〈Amane Kanata〉
+[1/Turn]During your opponent's turn, when the holomem this mascot is attached to takes Damage, deal 20 Special Damage to your opponent's center holomem.
+
+Only 1 mascot can be attached to each of your holomem."""
+117,hBP01-117,Friend,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-117_C.png,JinArt こばやかわやまと,,,,Mascot,FALSE,"""The holomem this mascot is attached to gets Arts+10.
+
+◆Additional ability if attached to 〈Nanashi Mumei〉
+During your opponent's turn, if the holomem this mascot is attached to would take Damage, you may archive this mascot:The holomem this mascot was attached to takes -30 Damage.
+
+Only 1 mascot can be attached to each of your holomem."""
+118,hBP01-118,Ankimo,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-118_C.png,JinArt こばやかわやまと,,,,Mascot,FALSE,"""The holomem this mascot is attached to gets +10 HP.
+
+◆Additional ability if attached to 〈Tokino Sora〉
+If the holomem this mascot is attached to would use Arts, this mascot is also regarded as a white cheer.
+
+Only 1 mascot can be attached to each of your holomem."""
+119,hBP01-119,Jobs,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-119_C.png,JinArt KABAKURA,,,,Mascot,FALSE,"""The holomem this mascot is attached to gets +10 HP.
+
+◆Additional ability if attached to 〈Aki Rosenthal〉
+When the holomem this mascot is attached to uses Arts, restore 10 HP to 1 of your holomem.
+
+Only 1 mascot can be attached to each of your holomem."""
+120,hBP01-120,Ganmo,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-120_C.png,JinArt KABAKURA,,,,Mascot,FALSE,"""The holomem this mascot is attached to gets Arts+10.
+
+◆Additional ability if attached to 〈Takane Lui〉
+When the holomem this mascot is attached to uses Arts in the Center Position, draw 1 card from your deck.
+
+Only 1 mascot can be attached to each of your holomem."""
+121,hBP01-121,Kotori,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-121_C.png,JinArt こばやかわやまと,,,,Mascot,FALSE,"""The holomem this mascot is attached to in the Center Position or Collab Position takes -10 Damage.
+
+◆Additional ability if attached to 〈Takanashi Kiara〉
+When the Bloom level of the holomem this mascot is attached to increases, draw 1 card from your deck.
+
+Only 1 mascot can be attached to each of your holomem."""
+122,hBP01-122,Rose Knights,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-122_C.png,JinArt KABAKURA,,,,Fan,FALSE,"""During your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your 〈Aki Rosenthal〉.
+
+You may only attach this fan to your 〈Aki Rosenthal〉, and you may attach any number of this fan per holomem."""
+123,hBP01-123,Wild Rabbit Alliance,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-123_C.png,JinArt こばやかわやまと,,,,Fan,FALSE,"""If the holomem this fan is attached to rolled a die by an ability, you may archive this fan:Ignore the previous results, and reroll the die.
+
+You may only attach this fan to your 〈Usada Pekora〉, and you may attach any number of this fan per holomem."""
+124,hBP01-124,Pioneers,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-124_C.png,JinArt こばやかわやまと,,,,Fan,FALSE,"""During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem.
+
+You may only attach this fan to your 〈AZKi〉, and you may attach any number of this fan per holomem."""
+125,hBP01-125,KFP,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-125_C.png,JinArt こばやかわやまと,,,,Fan,FALSE,"""When this fan is attached from hand to a holomem, you may archive 1 card from your hand:Draw 1 card from your deck.
+
+You may only attach this fan to your 〈Takanashi Kiara〉, and you may attach any number of this fan per holomem."""
+126,hBP01-126,Troupe Member,hBP01,Blooming Radiance,Support,C,,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hBP01-126_C.png,JinArt KABAKURA,,,,Fan,FALSE,"""■If the holomem this fan is attached to would use Arts, this fan is also regarded as a red cheer.
+■The holomem this fan is attached to takes +10 Damage.
+
+You may only attach this fan to your 〈Omaru Polka〉, and you may attach any number of this fan per holomem."""
+127,hY01-001,White Cheer,hY01,Blooming Radiance,Cheer,C,White,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hY01/EN_hY01-001_C.png,はずき,,,,,,"""■If a holomem leaves the stage, archive all of that holomem's cheers.
+■If a holomem Baton Passes, archive the specified number of that holomem's cheers."""
+128,hY02-001,Green Cheer,hBP01,Blooming Radiance,Cheer,C,Green,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hY02-001_C.png,はずき,,,,,,"""■If a holomem leaves the stage, archive all of that holomem's cheers.
+■If a holomem Baton Passes, archive the specified number of that holomem's cheers."""
+129,hY03-001,Red Cheer,hBP01,Blooming Radiance,Cheer,C,Red,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hY03-001_C.png,はずき,,,,,,"""■If a holomem leaves the stage, archive all of that holomem's cheers.
+■If a holomem Baton Passes, archive the specified number of that holomem's cheers."""
+130,hY04-001,Blue Cheer,hBP01,Blooming Radiance,Cheer,C,Blue,,https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/EN_hY04-001_C.png,はずき,,,,,,"""■If a holomem leaves the stage, archive all of that holomem's cheers.
+■If a holomem Baton Passes, archive the specified number of that holomem's cheers."""
