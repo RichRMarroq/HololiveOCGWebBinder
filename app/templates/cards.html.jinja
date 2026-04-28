@@ -2,6 +2,101 @@
 {%set title = "Cards"%}
 {%set active_page = "cards"%}
 {% block content %}
-    <h1>Welcome to the Cards Page</h1>
-    <p>This is the cards page content.</p>
+<!-- Filter Bar -->
+<div class="row bg-light">
+    <h1>Card Collection</h1>
+    <h3>Filters</h3>
+    <form action="/cards" method="GET">
+        <div>
+        <a type="bold">Card Type: </a>
+        
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="type" value="" id="radioDefault1"
+                onclick="this.form.submit()" {{'checked' if not selected_type else '' }}>
+            <label class="form-check-label" for="radioDefault1">
+                All
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="type" value="Oshi" id="radioDefault2"
+                onclick="this.form.submit()" {{'checked' if selected_type == 'Oshi' else '' }}>
+            <label class="form-check-label" for="radioDefault2">
+                Oshi
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="type" value="Holomem" id="radioDefault3"
+                onclick="this.form.submit()" {{'checked' if selected_type == 'Holomem' else '' }}>
+            <label class="form-check-label" for="radioDefault3">
+                Holomem
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="type" value="Support" id="radioDefault4"
+                onclick="this.form.submit()" {{'checked' if selected_type == 'Support' else '' }}>
+            <label class="form-check-label" for="radioDefault4">
+                Support
+            </label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="type" value="Cheer" id="radioDefault5"
+                onclick="this.form.submit()" {{'checked' if selected_type == 'Cheer' else '' }}>
+            <label class="form-check-label" for="radioDefault5">
+                Cheer
+            </label>
+        </div>
+        </div>
+    </form>
+</div>
+
+<!-- Card Grid -->
+
+<div class="row bg-primary-subtle">
+    <h2>Results</h2>
+    <div class="col-sm-2 col-sm-offset-2"></div>
+    <div class="col-sm-8 col-sm-offset-2">
+    <div class="row rows-cols-1 row-cols-md-3">
+        {% for card in cards %}
+        <div class="col">
+
+            <div class="card" style="width: 18rem;">
+                {% if card.image_url %}
+                <img src="{{ card.image_url }}" alt="{{ card.name }}" class="card-img-top">
+                {% else %}
+                <div class="placeholder">No Image</div>
+                {% endif %}
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title">{{ card.name }}</h5>
+                <p class="card-number">{{ card.card_number }}</p>
+
+                <p class="meta">
+                    {{ card.card_type }} | {{ card.rarity or '—' }}
+                </p>
+
+                {% if card.hp %}
+                <p>HP: {{ card.hp }}</p>
+                {% endif %}
+
+                {% if card.life %}
+                <p>Life: {{ card.life }}</p>
+                {% endif %}
+
+                {% if card.stage %}
+                <p>Bloom Level: {{ card.stage }}</p>
+                {% endif %}
+
+                {% if card.support_type %}
+                <p>Support: {{ card.support_type }}</p>
+                {% endif %}
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+    <div class="col-sm-2 col-sm-offset-2"></div>
+</div>
+
 {% endblock %}

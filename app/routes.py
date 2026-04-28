@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-from .models import db, User
+from .models import db, User, Card
 from . import bcryptSess
 from flask_login import login_user, logout_user, login_required, current_user
 
@@ -69,7 +69,15 @@ def decks():
 @main_bp.route('/cards')
 @login_required
 def cards():
-    return render_template('cards.html.jinja')
+    card_type = request.args.get('type')
+
+    query = Card.query
+
+    if card_type:
+        query = query.filter_by(card_type=card_type)
+    
+    cards = query.order_by(Card.card_number).all()
+    return render_template('cards.html.jinja', cards=cards, selected_type=card_type)
 
 @main_bp.route('/about')
 @login_required
