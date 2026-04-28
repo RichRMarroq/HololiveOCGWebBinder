@@ -1,11 +1,13 @@
 from flask import Flask
 from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
-
-from .models import db
+from flask_migrate import Migrate
+from flask_sqlalchemy import SQLAlchemy
 
 login_manager = LoginManager()
 bcryptSess = Bcrypt()
+db = SQLAlchemy()
+migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
@@ -14,6 +16,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///holoocgsite.db'
 
     db.init_app(app)
+    migrate.init_app(app, db)
     login_manager.init_app(app)
     bcryptSess.init_app(app)
 
