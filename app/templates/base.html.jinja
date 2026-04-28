@@ -12,7 +12,7 @@
 
 <body>
     {% set navigation_bar = [
-    ('/', 'home', 'Home'),
+    ('/home', 'home', 'Home'),
     ('/cards', 'cards', 'Cards'),
     ('/decks', 'decks', 'Decks'),
     ('/about', 'about', 'About')
@@ -31,6 +31,7 @@
                 </li>
                 {% endfor %}
             </ul>
+            <a class="btn btn-danger" href="/logout">logout</a>
         </div>
     </nav>
 

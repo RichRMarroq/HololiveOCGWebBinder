@@ -5,9 +5,6 @@ from flask_login import login_user, logout_user, login_required, current_user
 
 main_bp = Blueprint('main',__name__)
 
-@main_bp.route('/')
-def index():
-    return redirect(url_for('main.login'))
 
 @main_bp.route('/register', methods=['GET','POST'])
 def register():
@@ -22,22 +19,35 @@ def register():
             password_hash=hashed_pw
         )
 
+        db.session.add(user)
+        db.session.commit()
+
         return redirect(url_for('main.login'))
     return render_template('register.html.jinja')
 
+@main_bp.route('/')
 @main_bp.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
+        print("Attempting Login")
         user = User.query.filter_by(
             email=request.form.get('email')
         ).first()
+        
+        if user:
+            print("Found User")
+            print(f"Password Matches?: {bcryptSess.check_password_hash(
+            user.password_hash,
+            request.form.get('password')
+        )}")
 
         if user and bcryptSess.check_password_hash(
             user.password_hash,
             request.form.get('password')
         ):
             login_user(user)
-            return redirect(url_for('main_bp.home'))
+            print("User Logged In")
+            return redirect(url_for('main.home'))
     return render_template('login.html.jinja')
 
 @main_bp.route('/logout')
@@ -52,13 +62,16 @@ def home():
     return render_template('home.html.jinja')
 
 @main_bp.route('/decks')
+@login_required
 def decks():
     return render_template('decks.html.jinja')
 
 @main_bp.route('/cards')
+@login_required
 def cards():
     return render_template('cards.html.jinja')
 
 @main_bp.route('/about')
+@login_required
 def about():
     return render_template('about.html.jinja')
