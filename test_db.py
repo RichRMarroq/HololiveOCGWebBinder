@@ -14,7 +14,7 @@ def query_users():
     try:
         conn = sqlite3.connect('instance/holoocgsite.db')
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM card LIMIT 10")
+        cursor.execute("SELECT * FROM profiles LIMIT 10")
         users = cursor.fetchall()
         print("Users in the database:")
         for user in users:

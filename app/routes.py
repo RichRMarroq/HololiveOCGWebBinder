@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-from .models import db, User, Card
+from .models import db, User, Card, Profile
 from . import bcryptSess
 from flask_login import login_user, logout_user, login_required, current_user
 
@@ -17,6 +17,11 @@ def register():
             username=request.form.get('username'),
             email=request.form.get('email'),
             password_hash=hashed_pw
+        )
+
+        profile = Profile(
+            username=request.form.get('username'),
+            user=user
         )
 
         db.session.add(user)
@@ -82,4 +87,5 @@ def cards():
 @main_bp.route('/about')
 @login_required
 def about():
-    return render_template('about.html.jinja')
+    user_id = current_user.id
+    return render_template('about.html.jinja', user_id=user_id)

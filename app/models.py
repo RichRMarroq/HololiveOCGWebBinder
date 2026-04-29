@@ -1,13 +1,17 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
 
+
 db = SQLAlchemy()
 
 class User(db.Model, UserMixin):
+    __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password_hash = db.Column(db.String(128), nullable=False)
+
+    profile = db.relationship("Profile", backref='user', uselist=False)
 
 class Card(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -46,3 +50,12 @@ class Card(db.Model):
 
     def __repr__(self):
         return f"<Card {self.card_number} - {self.name}>"
+
+class Profile(db.Model):
+    __tablename__ = 'profiles'
+    id = db.Column(db.Integer, primary_key = True)
+    username = db.Column(db.String(64), unique=True, nullable=False)
+    bio = db.Column(db.Text)
+    avatar_image = db.Column(db.String(255))
+
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
