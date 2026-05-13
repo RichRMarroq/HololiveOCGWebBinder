@@ -38,10 +38,32 @@
 </container>
 <container class="mt-4">
     <h2>My Decks</h2>
+    <div class="row bg-primary-subtle">
+    <div class="col-sm-2 col-sm-offset-2"></div>
+    <div class="col-sm-8 col-sm-offset-2">
+    <div class="row rows-cols-1 row-cols-md-3">
+        {% for deck in decks %}
+        <div class="col">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/EN_hBP05-006_OSR.png" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card-body">
+                <h5 class="card-title">{{ deck.deck_name }}</h5>
+                <p> Deck Comments </p>
+                <a href="#" class="btn btn-primary">Edit Deck</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+    <div class="col-sm-2 col-sm-offset-2"></div>
+</div>
+<!---
     <div class="row">
         <div class="col-sm-4 col-sm-offset-2">
             <div class="card" style="width: 12rem;">
-                <img src="https://en.hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/EN_hBP05-006_OSR.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Deck title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -69,6 +91,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> ---> 
 </container>
 {% endblock %}

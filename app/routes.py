@@ -66,7 +66,10 @@ def logout():
 @main_bp.route('/home')
 @login_required
 def home():
-    return render_template('home.html.jinja')
+    #Display User Decks
+    decks = Deck.query.filter_by(profile_id=current_user.id).limit(3)
+    
+    return render_template('home.html.jinja', decks=decks)
 
 @main_bp.route('/decks')
 @login_required
