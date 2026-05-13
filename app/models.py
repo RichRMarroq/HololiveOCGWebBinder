@@ -14,6 +14,7 @@ class User(db.Model, UserMixin):
     profile = db.relationship("Profile", backref='user', uselist=False)
 
 class Card(db.Model):
+    __tablename__ = 'cards'
     id = db.Column(db.Integer, primary_key=True)
 
     # Core identity
@@ -59,3 +60,22 @@ class Profile(db.Model):
     avatar_image = db.Column(db.String(255))
 
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
+    
+
+class Deck(db.Model):
+    __tablename__ = 'decks'
+    id = db.Column(db.Integer, primary_key = True)
+    deck_name = db.Column(db.String(64), nullable=False)
+
+    profile_id = db.Column(db.Integer, db.ForeignKey('profiles.id'), nullable=False)
+
+
+class Deck_Card(db.Model):
+    __tablename__ = 'deck_cards'
+    id = db.Column(db.Integer, primary_key = True)
+    quantity = db.Column(db.Integer, nullable=False)
+
+    deck_id = db.Column(db.Integer, db.ForeignKey('decks.id'), nullable=False)
+    card_id = db.Column(db.Integer, db.ForeignKey('cards.id'), nullable=False)
+    
+

@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-from .models import db, User, Card, Profile
+from .models import db, User, Card, Profile, Deck, Deck_Card
 from . import bcryptSess
 from flask_login import login_user, logout_user, login_required, current_user
 
@@ -26,6 +26,7 @@ def register():
 
         db.session.add(user)
         db.session.commit()
+        print(f"User Created: {request.form.get('username')}\nPass: {request.form.get('password')}")
 
         return redirect(url_for('main.login'))
     return render_template('register.html.jinja')
@@ -41,6 +42,7 @@ def login():
         
         if user:
             print("Found User")
+            print(request.form.get('password'))
             print(f"Password Matches?: {bcryptSess.check_password_hash(
             user.password_hash,
             request.form.get('password')
@@ -89,3 +91,20 @@ def cards():
 def about():
     user_id = current_user.id
     return render_template('about.html.jinja', user_id=user_id)
+
+@main_bp.route('/create_deck', methods = ['POST'])
+@login_required
+def create_deck():
+    user_id = current_user.id
+    query = Profile.query
+
+    profile = query.filter_by(user_id=user_id).first()
+    deck = Deck(
+            deck_name=request.form.get('deck_name'),
+            profile_id=profile.id
+        )
+
+    db.session.add(deck)
+    db.session.commit()
+    return redirect(url_for('main.home'))
+

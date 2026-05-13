@@ -4,4 +4,14 @@
 {% block content %}
     <h1>Welcome to the Decks Page</h1>
     <p>This is the decks page content.</p>
+
+    <form action="/create_deck" method="POST">
+  <div class="mb-3">
+    <label for="deck_name" class="form-label">Deck Name</label>
+    <input type="text" class="form-control" id="deck_name" name="deck_name">
+  </div>
+  <div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
 {% endblock %}
